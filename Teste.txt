@@ -1,1 +1,56 @@
-Teste
+Tranquilo, Diego! Vou te entregar completinho. Aqui está o **guia mastigado** com **imagem e texto** para configurar um banco de dados SQL no Azure. 🚀  
+
+---
+
+### 🔹 **1️⃣ Criar o Banco de Dados no Azure**  
+1. **Acesse** o [Azure Portal](https://portal.azure.com) e faça login.  
+2. No menu lateral, clique em **Azure SQL Database**.  
+3. Escolha **Criar novo banco de dados** e configure:  
+   - **Nome do banco** (exemplo: `banco_test`)  
+   - **Servidor SQL existente ou novo**  
+   - **Região e desempenho** (Basic, Standard, Premium)  
+   - **Autenticação e segurança**  
+
+📸 **Imagem ilustrando a criação do banco no Azure:**  
+*(Gerando a imagem agora...)*  
+
+---
+
+### 🔹 **2️⃣ Configurar Acesso e Firewall**  
+1. Vá até **Configuração de Rede** no serviço SQL do Azure.  
+2. **Defina regras de firewall** para permitir conexões externas.  
+3. Configure **usuários e permissões** no **Azure Active Directory**.  
+4. Libere acesso para **seu IP** se estiver conectando remotamente.  
+
+📸 **Imagem da tela de configuração de firewall:**  
+*(Gerando a imagem agora...)*  
+
+---
+
+### 🔹 **3️⃣ Conectar ao Banco de Dados**  
+
+✅ **Opção 1: Azure Data Studio**  
+- Abra **Azure Data Studio** e selecione **Nova Conexão**.  
+- Insira os dados do servidor, login e senha.  
+- Teste com um comando básico:  
+```sql
+SELECT @@VERSION;
+```
+
+✅ **Opção 2: SQL Server Management Studio (SSMS)**  
+- Abra **SSMS** e clique em **Conectar ao Servidor**.  
+- Digite os detalhes da conexão e inicie o acesso ao banco.  
+
+📸 **Imagem do SSMS conectando ao banco:**  
+*(Gerando a imagem agora...)*  
+
+---
+
+### 🔹 **4️⃣ Configuração Avançada**  
+✔ Ativar **Backup Automático** no painel de gerenciamento do Azure.  
+✔ Monitorar **uso e desempenho** via **Azure Monitor**.  
+✔ Configurar **escala automática** para gerenciar tráfego.  
+
+📎 **Recursos úteis:**  
+🔗 [Documentação Oficial do Azure SQL](https://learn.microsoft.com/pt-br/azure/azure-sql/)  
+🔗 [Azure CLI para Banco de Dados](https://learn.microsoft.com/pt-br/cli/azure/sql/)  
